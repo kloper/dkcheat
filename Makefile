@@ -1,6 +1,6 @@
 TeX	=	pdftex
 
-PAGES	=	t1.pdf
+PAGES	=	t1.pdf t2.pdf
 
 cheat:	cheat.pdf
 
@@ -28,7 +28,7 @@ t1.pdf: t1.tex cheat.tex comb.tex common_values.tex gseries.tex lequations.tex \
         pascal.tex powers_of_two.tex series.tex parabola.tex aseries.tex \
 	powers.tex balgebra.tex
 
-t2.pdf: t2.tex trigbase.tex trigbform.tex
+t2.pdf: t2.tex trigbase.tex trigbform.tex angles.tex phase.tex
 
 parabola.tex: parabola.pdf
 
