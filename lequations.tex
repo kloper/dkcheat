@@ -1,0 +1,36 @@
+\vbox{\offinterlineskip 
+\halign{\tabskip=1em plus 3em \quad$#\hfil$&$#\hfil$\quad\cr
+\noalign{\bf{System of Linear Equations} \hfil \vskip 1mm} \cr
+\noalign{\hrule\vskip 1 mm}
+\displaystyle \cases {
+  a_1x + b_1y + c_1 = 0 \cr %
+  a_2x + b_2y + c_2 = 0 \cr } & \cr
+\noalign{\vskip 1mm}
+\displaystyle x = {{b_1c_2 - b_2c_1} \over {a_1b_2-c_2b_1}} &
+\displaystyle y = {{c_1a_2 - c_2a_1} \over {a_1b_2-a_2b_1}} \cr
+\noalign{\vskip 2mm}
+%
+\displaystyle \cases {
+  a_1x + b_1y + c_1z + d_1 = 0 \cr %
+  a_2x + b_2y + c_2z + d_2 = 0 \cr %
+  a_3x + b_3y + c_3z + d_3 = 0 \cr } & \cr
+\noalign{\vskip 2mm}
+\displaystyle A_1 = {b_3c_2 - b_2c_3} & B_1 = {a_3d_2-a_2d_3} \cr
+\noalign{\vskip 1mm}
+\displaystyle A_2 = {b_1c_3 - b_3c_1} & B_2 = {a_1d_3-a_3d_1} \cr
+\noalign{\vskip 1mm}
+\displaystyle A_3 = {b_2c_1 - b_1c_2} & B_3 = {a_2d_1-a_1d_2} \cr
+\noalign{\vskip 2mm}
+\displaystyle x = {{A_1d_1 + A_2d_2 + A_3d_3} \over %
+                   {A_1a_1 + A_2a_2 + A_3a_3}} \cr
+\noalign{\vskip 2mm}
+\displaystyle y = {{B_1c_1 + B_2c_2 + B_3c_3} \over %
+                   {A_1a_1 + A_2a_2 + A_3a_3}} \cr
+\noalign{\vskip 2mm}
+\displaystyle z = {{B_1b_1 + B_2b_2 + B_3b_3} \over %
+                   {A_1a_1 + A_2a_2 + A_3a_3}} \cr
+\noalign{\vskip 1mm \hrule} \cr
+}
+}
+
+

@@ -1,0 +1,4 @@
+
+\def\ifundefined#1{\expandafter\ifx\csname#1\endcsname\relax}
+\def\putpdf#1#2{\ifundefined{pdfximage}\else\pdfximage #1 {#2}%
+\pdfrefximage\pdflastximage\fi}
