@@ -28,7 +28,8 @@ t1.pdf: t1.tex cheat.tex comb.tex common_values.tex gseries.tex lequations.tex \
         pascal.tex powers_of_two.tex series.tex parabola.tex aseries.tex \
 	powers.tex balgebra.tex
 
-t2.pdf: t2.tex trigbase.tex trigbform.tex angles.tex phase.tex
+t2.pdf: t2.tex trigbase.tex trigbform.tex angles.tex phase.tex doubleangle.tex \
+	halfangle.tex sumangle.tex sumfangle.tex
 
 parabola.tex: parabola.pdf
 
