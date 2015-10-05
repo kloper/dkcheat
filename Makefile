@@ -32,7 +32,7 @@ t1.pdf: t1.tex cheat.tex comb.tex common_values.tex gseries.tex lequations.tex \
 	powers.tex balgebra.tex
 
 t2.pdf: t2.tex trigbase.tex trigbform.tex angles.tex phase.tex doubleangle.tex \
-	halfangle.tex sumangle.tex sumfangle.tex sinetheorem.tex
+	halfangle.tex sumangle.tex sumfangle.tex sinetheorem.tex trigarcf.tex
 
 parabola.tex: parabola.pdf
 
