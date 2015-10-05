@@ -3,31 +3,35 @@
 \hbox {
   \hsize=2in
   \vbox to 210mm {
-    \vskip 0.2em
-    \hbox{
+    \vskip 1ex  
+    \hbox {
       \input powers_of_two\relax
-      \vbox{
+      \vbox {
         \input common_values\relax
-        \vskip 0.5em
+        \vskip 1ex
         \input aseries
-        \vskip 0.5em
+        \vskip 1ex
         \input gseries
-        \vskip 0.5em
-        \input balgebra
+        \vskip 17.4ex
       }
-      \vbox{
-        \input powers
-        \vskip 0.5em
-        \input lequations
-        \vskip 0.5em
-        \input pascal
+      \vbox {
+        \input comb
+        \vskip 31ex
       }
-      \vbox{
-        \input parabola
-        \vskip 0.5em
-        \input comb        
-      }
+    }          
+    \vskip 1ex
+    \hbox {
+      \input parabola
+      \input pascal
     }
+  }
+  \vbox to 210mm{
+    \vskip 1ex
+    \input balgebra
+    \vskip 1ex
+    \input powers
+    \vskip 1ex
+    \input lequations
   }
 }
 
