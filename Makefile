@@ -15,6 +15,9 @@ t1.pdf:
 t2.pdf:	
 	$(TeX) t2.tex
 
+t3.pdf:
+	$(TeX) t3.tex
+
 clean:
 	rm -f t1.pdf t2.pdf \
 	parabola.pdf triangle.pdf trig.pdf \
@@ -30,3 +33,4 @@ t2.pdf: t2.tex trigbase.tex trigbform.tex angles.tex phase.tex doubleangle.tex \
 	halfangle.tex sumangle.tex sumfangle.tex sinetheorem.tex trigarcf.tex \
 	trig.pdf triangle.pdf
 
+t3.pdf: complexbasic.tex
